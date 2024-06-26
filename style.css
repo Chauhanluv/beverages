@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: black; */
+    color:#df9000;
+    position: absolute;
+    z-index: 1;
+}
+.img3 img{
+    width: 140px;
+    margin-top: 20px;
+}
+.ul ul{
+      display: flex;
+    list-style: none;
+    margin: 10px;
+    font-size: 26px;
+    gap: 100px;
+    font-family: serif;
+    
+    font-weight: 600;
+    /* display: none; */
+    /* position: absolute; */
+    opacity: 0;
+}
+.icon{
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+.icon i {
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+.icon:hover .ul ul{
+ display: block;
+}
+
+
+.container1{
+    
+      
+        width: 100%;
+        height: 785px;
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: black;
+        position: relative;
+       
+}
+ .img{
+  
+    position: absolute;
+   
+    left: 39%;
+    top: -5px;
+    
+}
+.img:hover{
+   
+    animation: rotation 2s ;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+     
+      transform: rotate(20deg);
+    }
+  }
+
+.left{
+ width: 50vw;
+ margin-left: 110px;
+}
+.left h1{
+ font-size: 70px;
+    margin-left: 20px;
+    margin: 10px;
+    font-family: serif;
+    color: whitesmoke;
+}
+.left h1 span{
+    color: #df9000;
+}
+.left h2{
+   
+    margin-left: 20px;
+    font-family: serif;
+    color: whitesmoke;
+}
+.left p{
+    width: 465px;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: serif;
+    color: whitesmoke;
+}
+.btn{
+    width: 151px;
+    height: 46px;
+    margin: 10px 20px;
+    background-color: #df9000;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.right{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+   
+    height:785px ;
+    background-color: #605252;
+    color:#472c2c;
+}
+.one h1{
+      font-size: 168px;
+}
+.two{
+    margin-right: 82px;
+}
+.three{
+    margin-right: 142px;
+}
+
+.container2{
+    background-color: black;
+    width: 100vw;
+    height: 850px;
+}
+.cont1{
+    width: 80vw;
+    height: 400px;
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 80px;
+    
+}
+
+
+.label{
+    left: 1px;
+    position: absolute;
+    left: -6px;
+    top: -18px;
+    left: -77px;
+    width: 120px;
+    height: 40px;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #df9000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.img1{
+
+    position: relative;
+    width: 441px;
+}
+.cont1 img{
+   height: 306px;
+}
+.disc h2{
+    font-size: 40px;
+    margin: 20px;
+}
+.disc p{
+    margin: 20px;
+    font-size: 20px;
+}
+.disc p span{
+    margin-left: 79px;
+}
+.disc h1{
+    margin: 20px;
+    color: #df9000;
+}
+
+.container4{
+    background-color: black;
+    padding-top: 100px;
+    /* height: 550px; */
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.product-name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 16px;
+    color: #b12704;
+    margin-bottom: 10px;
+}
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.buy-now {
+    background-color:#df9000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.buy-now:hover {
+    background-color :#df9000;
+}
+
+.footer {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.footer .logo {
+    margin-bottom: 20px;
+}
+.footer .logo img {
+    width: 150px;
+}
+.footer .links {
+    margin-bottom: 20px;
+}
+.footer .links a {
+    margin: 0 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.footer .legal {
+    font-size: 18px;
+    color:white;
+}
+
+@media (max-width:1230px) {
+   .one h1{
+    font-size: 100px
+   }
+}
+@media (max-width:978px) {
+    .one h1{
+    font-size: 60px
+}
+   .img img{
+       width: 285px;
+    position: absolute;
+    left: 191px;
+    top: 200px;
+}
+}
+
+@media (max-width:750px) {
+    .nav{
+        align-items: flex-start;
+        height: 200px;
+       /* background-color: black;
+       opacity: 0.1; */
+    }
+    .nav img{
+        width: 50px;
+    }
+   .ul ul{
+  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 19px;
+    top: 40px;
+    opacity: 0;
+    left: 40%;
+   }
+   .right{
+    display: none;
+   }
+   .left{
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .left h1{
+    width: 300px;
+   }
+   .left h2{
+    width: 300px;
+   }
+   .left img{
+    width: 200px;
+    top: 20px;
+    left: -40px;
+   }
+   .left p{
+    width: 300px;
+   }
+   .container1{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .cont1{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+   .cont1 img{
+    width: 250px;
+   }
+   .img1{
+    width: 226px;
+   }
+   .label{
+    position: absolute;
+    left: -30px;
+   }
+   .cont2{
+    height: auto;
+   }
+   .container2{
+    height: auto;
+   }
+   .img img{
+    left: -80px;
+    top: 0;
+    position: absolute;
+   }
+   .label2{
+    left: -55px;
+    top: 36px;
+   }
+}
